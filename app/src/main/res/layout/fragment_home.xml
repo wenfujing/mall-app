@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:background="@color/bg_gray"
+             android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <com.youth.banner.Banner
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp" />
+                <TextView
+                        android:padding="10dp"
+                        android:text="         现代人们愈来愈注重健康，很多人担心从市场买来的肉质食品的来源安全问题，例如该头猪是在什么环境下生长的，生长过程中是否及时打了疫苗，该头猪的各项检验指标是否合格，它是什么时候什么地点屠宰的，是从哪个地区的哪个农场运过来的等等一系列担忧，而本项目灵感来源于此，本项目对牲畜进行RFID标签标识和绑定，对农产品生产记录全程进行“电子化”管理，为农产品建立透明的“身份档案”，用户客通过采购方、消费者使用手机可快速扫描每个产品的二维码来获取相应肉制品的防疫、检验、运输、屠宰等各个环节的视频和数据，从而实现“知根溯源”，做到对于用户产品来源的全透明，消除用户的顾虑。"
+                        android:textSize="17sp"
+                        android:fontFamily="casual"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+            <TextView
+                    android:padding="10dp"
+                    android:text="         本系统主要针对农副产品的在线销售和溯源，对于生产者能够对牲畜的生长环境进行记录，检验机构能够对产品的检验报告进行录入，销售者显示产品的屠宰和运输，而针对用户我们提供了web端和APP端服务，用户能够进行注册登录下单等功能，最重要的是用户能够观看所需要购买产品的养殖数据、检验报告、屠宰运输等数据和视频，进一步了解所要购买产品的来源，满足消费者知情权,从而放心、愉快地购买。"
+                    android:textSize="17sp"
+                    android:fontFamily="casual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+    <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingBottom="10dp"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingLeft="20dp"-->
+            <!--android:paddingRight="20dp">-->
+        <!--<EditText-->
+            <!--android:id="@+id/home_top_et_search"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:background="@color/white"-->
+            <!--android:hint="输入你要查询的内容"-->
+            <!--android:textColorHint="@color/bg_gray"-->
+            <!--android:singleLine="true"-->
+            <!--android:textSize="15sp"-->
+
+        <!--/>-->
+        <!--<ImageButton-->
+                <!--android:id="@+id/home_top_ib_search"-->
+                <!--android:layout_width="17dp"-->
+                <!--android:layout_height="17dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:layout_marginStart="13dp"-->
+                <!--android:src="@mipmap/top_search"-->
+                <!--android:background="#00000000"-->
+                <!--android:scaleType="centerInside"-->
+        <!--/>-->
+
+    <!--</LinearLayout>-->
+
+
+
+
+</FrameLayout>

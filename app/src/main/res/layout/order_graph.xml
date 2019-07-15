@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="50dp">
+        <ImageButton
+                android:id="@+id/order_graph_ib_back"
+
+                android:layout_marginLeft="10dp"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:background="@color/white"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/btn_return"
+        />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:text="保鲜箱温湿度"
+                android:textSize="20sp"
+        />
+    </RelativeLayout>
+
+    <WebView
+        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="5dp"
+        android:id="@+id/webView_graph"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+    </WebView>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:id="@+id/btn_update"
+        android:textSize="16sp"
+        android:padding="20dp"
+        android:text="刷新温湿度"
+        android:background="@drawable/button_shape1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>

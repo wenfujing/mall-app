@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:text="收货人姓名"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        <EditText
+                android:id="@+id/receiver_et_name"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:text="收货人手机"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        <EditText
+                android:id="@+id/receiver_et_phone"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:text="收货省份："
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        <Spinner
+                android:id="@+id/receiver_sp_province"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:text="收货城市"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        <Spinner
+                android:id="@+id/receiver_sp_city"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp">
+        <TextView
+                android:text="收货城市"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"/>
+        <EditText
+                android:id="@+id/receiver_et_distirct"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>

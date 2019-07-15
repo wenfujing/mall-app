@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">My ApplicationTest</string>
+    <string name="home">首页</string>
+    <string name="category">分类</string>
+    <string name="scan">扫码</string>
+    <string name="cart">购物车</string>
+    <string name="my">我的</string>
+    <string name="question">密保问题</string>
+    <string name="notifyTitle">123</string>
+    <string name="notifyMsg">123456</string>
+    <string name="cancel">000</string>
+    <string name="setting">111</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+</resources>
